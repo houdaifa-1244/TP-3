@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tp.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"> 
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <title>Frontend Mentor</title>
+</head>
+<body>
+    <div class="container row">
+        <h1>DESSERTS</h1>
+        <div class="part-1 col-8">
+            <div class="cards row">
+                <!-- <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-waffle-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="0" data-number="0">
+                            <button class="add"> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="0" data-number="0">
+                            <i id="minus" class="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1" max="1000">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-0">Waffle</p>
+                        <p class="desc-2">Waffle with Berries</p>
+                        <span>$<span class="desc-3">6.50</span></span>
+                    </div>
+                </div>
+                <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-creme-brulee-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="1" data-number="1">
+                            <button> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="1" data-number="1">
+                            <i id="minus" class="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-1">Crème Brûlée</p>
+                        <p class="desc-2">Vanilla Bean Crème Brûlée</p>
+                        <span>$<span class="desc-3">6.50</span></span>
+                    </div>
+                </div>
+                <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-macaron-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="2" data-number="2">
+                            <button> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="2" data-number="2">
+                            <i id="minus" class="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-1">Macaron</p>
+                        <p class="desc-2">Macaron Mix of Five</p>
+                        <span>$<span class="desc-3">8.00</span></span>
+                    </div>
+                </div>
+                <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-tiramisu-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="3" data-number="3">
+                            <button> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="3" data-number="3">
+                            <i id="minus" class="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-1">Tiramisu</p>
+                        <p class="desc-2">Classic Tiramisu</p>
+                        <span>$<span class="desc-3">5.50</span></span>
+                    </div>
+                </div>
+                <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-baklava-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="4" data-number="4">
+                            <button> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="4" data-number="4">
+                            <i id="minus" class="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-1">baklava</p>
+                        <p class="desc-2">Pistachio Baklava</p>
+                        <span>$<span class="desc-3">4.00</span></span>
+                    </div>
+                </div>
+                <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-meringue-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="6" data-number="6">
+                            <button> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="6" data-number="6">
+                            <i id="minus" class="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-1">Pie</p>
+                        <p class="desc-2">Lemon Meringue Pie </p>
+                        <span>$<span class="desc-3">5.00</span></span>
+                    </div>
+                </div>
+                <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-cake-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="6" data-number="6">
+                            <button> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="6" data-number="6">
+                            <i id="minus" class="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-1">Cake</p>
+                        <p class="desc-2">Red Velvet Cake </p>
+                        <span>$<span class="desc-3">4.50</span></span>
+                    </div>
+                </div>
+                <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-brownie-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="7" data-number="7">
+                            <button> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="7" data-number="7">
+                            <i id="minus" class="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-1">Brownie</p>
+                        <p class="desc-2">Salted Caramel Brownie </p>
+                        <span>$<span class="desc-3">4.50</span></span>
+                    </div>
+                </div>
+                <div class="dess-card col-4">
+                    <div class="image">
+                        <img class="w-100" src="images/image-panna-cotta-desktop.jpg" alt="">
+                        <div class="add-cart" data-index="8" data-number="8">
+                            <button> <img src="images/icon-add-to-cart.svg" alt=""> <p class="title">Add to Cart</p> </button>
+                        </div>
+                        <div class="quantity" data-index="8" data-number="8">
+                            <i id="minus" clss="fa fa-minus"></i>
+                            <input type="number" name="" id="quantity-number" value="1">
+                            <i id="plus" class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-1">Cotta</p>
+                        <p class="desc-2">Vanilla Panna Cotta</p>
+                        <span>$<span class="desc-3">6.50</span></span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="part-2 col-4">
+            <p class="cart-number">Your Cart (<input id="cart-quantiy" type="number" value="0" min="0" max="1000">)</p>
+            <img id="empty-cart" src="assets/images/illustration-empty-cart.svg" alt="">
+            <div id="wallet-contonu"></div>
+            <p class="text">Your added items will appear here</p>
+            <p class="total">Order Total <label class="total-number" for="">0</label></p>
+             <button class="delivery"> <img src="assets/images/icon-carbon-neutral.svg" alt="">
+                <p>This is <strong>a carbon-neutral</strong> delivery</p>
+            </button>
+            <button class="confirm">Confirm Order</button>
+        </div>
+
+    
+    </div>
+    <div class="all">
+        <div class="confirm-order">
+            <img src="assets/images/icon-order-confirmed.svg" alt="">
+            <p class="all-titel">Order Confirmed</p>
+            <div class="order-contonu"></div>
+            <p class="order-total">Order Total <label class="order-number" for="">0</label></p>
+            <button  class="order-button">Start New Order</button>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+   <script src="tp.js" type="module"></script> 
+</body>
+</html>
